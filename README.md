@@ -11,6 +11,7 @@ Written this prototype framework to validate only for filter/sort functionality.
 I have written 2 features. 
 
 FilterListing_Smoke.feature - Runnable, You can run this feature using in production environment https://www.icebreaker.com/
+
 FilterListing.feature - Prototype level, Can not run successfully.
 
 ### How to install the solution:
@@ -26,7 +27,7 @@ pom.xml includes all the dependencies required to build with MAVEN.
 ### How to run tests:
 
 •To run features,
-Select FIlterListingRunner.java > Right click > Run as Junit Test OR Select ValidateResponse.feature > Right click > Run as Cucumber feature
+Select FIlterListingRunner.java > Right click > Run as Junit Test OR Select FilterListing_Smoke.feature > Right click > Run as Cucumber feature
 
 > Test report can be seen in - \target\cucumber-reports (https://github.com/kaveendralk/Icebraker/blob/main/Test_Report.jpg)
 
